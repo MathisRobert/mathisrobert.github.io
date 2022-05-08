@@ -521,8 +521,13 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
-	margin-bottom: 12px;
+   margin-bottom: 12px;
    color: #111;
+}
+.popup-modal .description-box h4 span{
+   font: 14px/22px 'opensans-bold', sans-serif;
+   margin-bottom: 12px;
+   margin-left: 12px;
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
