@@ -285,6 +285,53 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.skills {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    max-width: 100%;
+}
+
+.skills .left-align{
+    justify-content: flex-start;
+}
+
+.skill h2 {
+    margin-top: 32px;
+    font-size: 25px;
+}
+
+.skills ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    grid-gap: 16px;
+}
+
+.skills li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.skill li em {
+    margin-bottom: 10px;
+    font: 16px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.skill img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
 .bars {
 	width: 95%;
 	float: left;
@@ -317,7 +364,6 @@ ul#nav li.current a { color: #F06000; }
 	top: -36px;
 }
 .no-bar {
-   position: absolute;
    left: 0;
    top: 0;
 }
