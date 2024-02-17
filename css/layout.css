@@ -329,6 +329,7 @@ ul#nav li.current a { color: #F06000; }
 .skill img {
     max-width: 100px;
     max-height: 100px;
+    margin: auto;
 }
 
 
